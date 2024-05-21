@@ -21,7 +21,7 @@ export default function Contact() {
                     >
                 </li>
                 <li>
-                    <a href="https://www.linkedin.com/in/dipankaj-singh-19a90b2a1/"
+                    <a href="www.linkedin.com/in/dipankaj-singh-b46942309"
                     ><i className="fa-brands fa-2x fa-linkedin"></i>
                         <span>LinkedIn</span></a
                     >

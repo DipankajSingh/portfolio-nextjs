@@ -14,11 +14,11 @@ export const metadata: Metadata = {
   description:
     "Portfolio showcasing Dipankaj's (Dipdev) full-stack development expertise with projects built using Next.js, MongoDB, and more. Discover innovative web applications and solutions.",
   keywords:
-    "full-stack developer, portfolio, Next.js, MongoDB, React, web development, software engineer, Dipankaj, Dipdev",
+    "full-stack developer, portfolio, Next.js, MongoDB, React, web development, software engineer, Dipankaj, Dipdev, Dipankaj, dipankaj, javascript",
   openGraph: {
     title: "Dipankaj (Dipdev) | Full-Stack Developer Portfolio",
     description:
-      "Portfolio showcasing Dipankaj's (Dipdev) full-stack development expertise with projects built using Next.js, MongoDB, and more. Discover innovative web applications and solutions.",
+      "Portfolio showcasing Dipankaj's (Dipdev) full-stack development expertise. Discover innovative web applications and solutions.",
     url: "https://dipdev.tech",
     siteName: "Dipankaj (Dipdev) Portfolio",
     images: [
@@ -35,14 +35,14 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Dipankaj (Dipdev) | Full-Stack Developer Portfolio",
     description:
-      "Portfolio showcasing Dipankaj's (Dipdev) full-stack development expertise with projects built using Next.js, MongoDB, and more. Discover innovative web applications and solutions.",
-    creator: "@its_Dipankaj", // Replace with your Twitter handle
-    images: [], // Replace with your preview image
+      "Portfolio showcasing Dipankaj's (Dipdev) full-stack development expertise. Discover innovative web applications and solutions",
+    creator: "@its_Dipankaj",
+    images: ["/ss.png"],
   },
   icons: {
     icon: "/favicon.ico",
-    shortcut: "/images/icon.ico",
-    apple: "/images/icon.ico",
+    shortcut: "favicon.ico",
+    apple: "favicon.ico",
   },
 };
 
