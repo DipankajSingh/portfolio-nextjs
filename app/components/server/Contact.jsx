@@ -9,25 +9,25 @@ export default function Contact() {
         <div>
             <ul>
                 <li>
-                    <a href="https://www.instagram.com/_dipankaj/"
+                    <a href="#"
                     ><i className="fa-brands fa-2x fa-instagram"></i>
                         <span>Instagram</span></a
                     >
                 </li>
                 <li>
-                    <a href="https://twitter.com/its_Dipankaj"
+                    <a href="#"
                     ><i className="fa-brands fa-2x fa-twitter"></i>
                         <span>Twitter</span></a
                     >
                 </li>
                 <li>
-                    <a href="www.linkedin.com/in/dipankaj-singh-b46942309"
+                    <a href="#"
                     ><i className="fa-brands fa-2x fa-linkedin"></i>
                         <span>LinkedIn</span></a
                     >
                 </li>
                 <li>
-                    <a href="https://www.facebook.com/dipanka.singh.39"
+                    <a href="#"
                     ><i className="fa-brands fa-2x fa-facebook"></i>
                         <span>Facebook</span></a
                     >
@@ -43,7 +43,7 @@ export default function Contact() {
             </p>
             <p>
                 <i className="fa-solid fa-phone-volume"></i>
-                <span>+91 8697 69 6454</span>
+                <span>+91 12345 678910</span>
             </p>
         </div>
     </section>
