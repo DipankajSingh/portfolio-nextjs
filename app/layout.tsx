@@ -10,6 +10,7 @@ const nunito = Nunito({ subsets: ["latin"] });
 const gelasio = Gelasio({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://dipdev.tech"),
   title: "Dipankaj (Dipdev) | Full-Stack Developer Portfolio",
   description:
     "Portfolio showcasing Dipankaj's (Dipdev) full-stack development expertise with projects built using Next.js, MongoDB, and more. Discover innovative web applications and solutions.",

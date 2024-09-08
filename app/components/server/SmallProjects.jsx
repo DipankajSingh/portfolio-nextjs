@@ -18,7 +18,7 @@ async function getRepoCount() {
 
 export default async function SmallProjects() {
     return (
-        <section className=" relative mr-auto ml-auto text-2xl h-max font-inter mt-8 text-center" >
+        <section className=" relative mr-auto ml-auto text-2xl h-max font-inter text-center" >
             Please visit my github profile to see all {await getRepoCount()} projects <Link className="inline " href="https://github.com/DipankajSingh"><Image className='filter-greeen inline' src="/githubIcon.png" alt="github" width={50} height={50} /></Link>
 
 
