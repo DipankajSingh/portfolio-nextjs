@@ -15,7 +15,7 @@ async function sendEmail(prevState: any, formData: FormData) {
     const message = formData.get("message") as string;
 
     const { data, error } = await resend.emails.send({
-      from: "DipdevResend <onboarding@resend.dev>",
+      from: `${process.env.EMAIL}`,
       to: ["dipankajsingh25@gmail.com", "hey@dipdev.tech"],
       subject: "Someone Want's To Contact You",
       text: `Name: ${name}\nEmail: ${email}\nMessage: ${message}`,
