@@ -172,8 +172,6 @@ body {
 
 .intro div strong {
     color: var(--accent-color);
-    text-transform: uppercase;
-    font-family: "Dosis", cursive;
 }
 
 .intro div button {

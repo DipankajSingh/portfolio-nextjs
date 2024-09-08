@@ -11,9 +11,7 @@ export default function page() {
   return (
     <main>
       <Header />
-      <Intro>
-        <Download />
-      </Intro>
+      <Intro />
       <Projects />
       <SmallProjects />
       <AboutMe />

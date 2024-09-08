@@ -203,13 +203,13 @@ body {
   justify-content: center;
   align-items: center;
   gap: 5px;
-  margin-left: auto;
+  margin-left: 1rem;
   padding: 0 3rem;
+
 }
 
 .intro div strong {
   color: var(--accent-color);
-  text-transform: uppercase;
 }
 
 .intro div button {
@@ -939,6 +939,7 @@ body:has(button:hover) .custom-cursor {
     --chart-5: 27 87% 67%;
     --radius: 0.5rem;
   }
+
   .dark {
     --background: 240 10% 3.9%;
     --foreground: 0 0% 98%;
@@ -971,6 +972,7 @@ body:has(button:hover) .custom-cursor {
   * {
     @apply border-border;
   }
+
   body {
     @apply bg-background text-foreground;
   }

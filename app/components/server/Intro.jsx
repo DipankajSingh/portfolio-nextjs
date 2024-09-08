@@ -1,20 +1,24 @@
+import { Settings } from 'lucide-react'
 import React from 'react'
 
-export default function Intro({ children }) {
+export default function Intro() {
     return (
         <main className="intro">
             <h1>
                 <span>hello,</span>
                 <span> i'm
-                    <span className="content">
+                    <span className="content font-mono">
                         <span>Dipankaj</span>
                         <span>Dipankaj</span>
                     </span>
                 </span>
             </h1>
             <div className="intro__info">
-                {children}
-                <strong>fullstack developer</strong>
+                <span className="scale-75 top-1.5 relative">
+                    <Settings color='green' className="animate-spin duration-5000 absolute left-[-80%] bottom-[40%]" />
+                    <Settings color="lightgreen" className="animate-spinRevers duration-5000" />
+                </span>
+                <strong className="capitalize">Engineering...</strong>
             </div>
             <svg className="circuitBoard" fill="red" viewBox="0 0 100 100">
                 <g>

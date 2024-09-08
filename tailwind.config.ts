@@ -64,7 +64,18 @@ const config: Config = {
   				'4': 'hsl(var(--chart-4))',
   				'5': 'hsl(var(--chart-5))'
   			}
-  		}
+  		},
+		  transitionDuration: {
+			'5000': '6000ms',
+		  },
+		  keyframes: {
+			spinRevers: {
+			  '100%': { transform: 'rotate(-360deg)' }
+			}
+		  },
+		  animation: {
+			spinRevers: 'spinRevers 6s linear infinite',
+		  }
   	}
   },
   plugins: [require("tailwindcss-animate")],
