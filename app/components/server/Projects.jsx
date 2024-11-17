@@ -6,7 +6,7 @@ export default function Projects() {
             projectName: "Hysteria",
             projectImg: "/hysteria.webp",
             projectDescription: "Connect, share, chat, and discover on this vibrant social media platform",
-            projectLangs: ["NEXTJS", "CSTAILWIND", "EXPRESS JS", "MONGODB"],
+            projectLangs: ["NextJS", "TailwindCSS", "ExpressJS", "MongoDB"],
             projectLink: "https://hysteria.dipdev.tech"
         },
         {
@@ -17,12 +17,16 @@ export default function Projects() {
             projectLink: "https://webwrite.dipdev.tech"
         },
         {
-            projectName: "SenoScope",
-            projectImg: "/senoScope.png",
-            projectDescription: `A minimalist stargazing app using your phone's sensors to unveil the night sky's wonders`,
-            projectLangs: ["JavaScript", "React Native", "react-native-sensors", "Sky Guide API"],
-            projectLink: "https://senoscope.dipdev.tech"
+            projectName: "Mute On Location",
+            projectImg: "/playstore.png",
+            projectDescription: `
+                Mute On Location is a smart mobile application designed to automatically mute your phone's notifications based on predefined locations, such as your home, office, or other specific areas. It enhances productivity and ensures minimal distractions by managing sound profiles intelligently. 
+                Additionally, the app features customizable settings for unmuting important calls and swipe actions to manage saved locations effortlessly.
+            `,
+            projectLangs: ["Kotlin", "Android Studio", "Room Database", "DataStore Preferences", "NEXTJS", "TailwindCSS"],
+            projectLink: "https://mute.dipdev.tech"
         }
+
     ]
     return (
         <section id='projects' className={`relative min-h-screen max-h-fit w-full after:absolute 

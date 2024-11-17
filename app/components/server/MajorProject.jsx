@@ -22,10 +22,9 @@ export default function MajorProject({ projectName, projectImg, projectDescripti
         after:via-[#00ff00] 
         after:to-black
 `}>
-            <div className='h-24  filter-greeen w-24  grid place-items-center'><img src={projectImg} className={`grayscale`} alt={projectName} /></div>
-            <h3 className='text-4xl text-green-200 font-bold uppercase font-sans pl-4'>{projectName}</h3>
-            <p className=' pl-4 text-green-50 font-nunito text-xl line-clamp-3'>{projectDescription}</p>
-            <Link className='absolute top-8 right-8' href={projectLink}>Visit</Link>
+            <h3 className='text-2xl text-green-200 font-bold uppercase font-sans pl-4'>{projectName}</h3>
+            <p className=' pl-4 text-gray-50 font-nunito text-xl line-clamp-3'>{projectDescription}</p>
+            <Link target='_blank' className='absolute top-8 underline right-8' href={projectLink}>Visit</Link>
             <ul className='relative mt-8 pl-4 flex flex-wrap gap-2'>
                 {projectLangs.map((lang, index) => {
                     return <Language key={index} lang={lang} />
